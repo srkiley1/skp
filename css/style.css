@@ -4,15 +4,13 @@ body {
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
+     /**masthead**/
 .masthead-intro,
 .masthead-heading {
   text-align: center;
   text-weight: bold;
   color: white;
 }
-
-
-
 .masthead {
   background-image: url('https://unsplash.imgix.net/photo-1422310299561-e3b8b45d859f?fit=crop&fm=jpg&h=700&q=75&w=1050');
   background-repeat: no-repeat;
@@ -23,8 +21,6 @@ body {
   height:  550px;
 position:  255px 255px;
 }
-
-
 .masthead-intro {
     /* Layout Declarations */
     margin-bottom: 0.1em;
@@ -32,8 +28,7 @@ position:  255px 255px;
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2em;
     font-weight: bold;
-}
-  
+} 
 .masthead-heading {
     /* Layout Declarations */
     margin-top: -0.2em;
@@ -44,17 +39,17 @@ position:  255px 255px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
    }
+/***.content-footer,
+.introduction-section**/
 
 .content-footer,
-.introduction-section,
-.location-section,
-.questions-section {
+.introduction-section
+ {
     text-align: center;
     background-color:	#E6DAC1;
     border:solid black;
     padding: 1em;
 }
-
 .questions-section > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
@@ -62,11 +57,9 @@ position:  255px 255px;
     /* Layout */
     margin: 2em 0 1em 0;
 }
-
 .content-footer > p {
   color: black;
 }
-
 .introduction-section > p,
 .location-section > p,
 .content-footer > p {
@@ -74,7 +67,6 @@ position:  255px 255px;
     font-weight: 200;
     letter-spacing: 0.05em;
 }
-
 .questions-section > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
@@ -94,26 +86,23 @@ position:  255px 255px;
   
   }
  }
+/**Miscellaneous**/
 li {
-
   height: 300px;
-padding: 10px;
-text-align: center;
+  padding: 10px;
+  text-align: center;
   display: inline-block;
-margin-left:180px;
+  margin-left:180px;
 }
-
 .Projects {
 
- background-color:  #E6DAC1;
+  background-color:  #E6DAC1;
   border:solid black;
 }
 .Projects h2 {
   text-align: center;
- 
 }  
 h5 {
- 
   margin-left: 475px;
   font-size: 20px;
   margin-top: 200px;
@@ -122,14 +111,4 @@ h5 {
   margin-left: 500px;
   font-size: 15px;
   margin-top: -20px;
-
-
-
-
-
-
-
-
-
-  ]
-}
+  }
