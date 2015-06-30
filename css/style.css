@@ -89,10 +89,11 @@ position:  255px 255px;
 /**Miscellaneous**/
 li {
   height: 300px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   display: inline-block;
-  margin-left:  265px;
+  margin-left:  65px;
+
 }
 .Projects {
 
