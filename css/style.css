@@ -92,10 +92,10 @@ li {
   padding: 5px;
   text-align: center;
   display: inline-block;
-  margin-left:  305px;
+
 
 }
-.Projects {
+.karma {
 
   background-color:  #E6DAC1;
   border:solid black;
@@ -113,3 +113,9 @@ h5 {
   font-size: 15px;
   margin-top: -20px;
   }
+ .karma {
+  text-align: center;
+ } 
+ .karma2 {
+  display: inline-block;
+ }
